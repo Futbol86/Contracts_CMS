@@ -1,0 +1,173 @@
+export const MODULE_ID          = 'danh-mucs';
+export const API_SUB_URL        = '/doi-tuongs';
+
+export const API_SUB_URL_DOI_TUONG = '/owners';
+export const API_SUB_URL_TAI_SAN = '/assets';
+export const API_SUB_URL_TAI_SAN_HISTORY = '/asset-histories';
+export const API_SUB_URL_SUB_ASSET_TYPE = '/sub-asset-types';
+export const API_SUB_URL_CONTRACT_TYPE = '/contract-types';
+export const API_SUB_URL_LOAI_HOP_DONG = '/sub-contract-types';
+export const API_SUB_URL_LOAI_SO_LUU_TRU = '/archive-book-types';
+export const API_SUB_URL_SO_LUU_TRU = '/archive-books';
+export const API_SUB_URL_OWNER_TYPE = '/owner-types';
+export const API_SUB_URL_SUB_OWNER_TYPE = '/sub-owner-types';
+export const API_SUB_URL_LAND_PURPOSE = '/land-purposes';
+export const API_SUB_URL_BANK = '/banks';
+export const API_SUB_URL_DISTRICT = '/districts';
+export const API_SUB_URL_WARD = '/wards';
+ 
+export const DOI_TUONG_FORM_NAME             = 'DOI_TUONG_FORM';
+export const DOI_TUONG_FORM_NAME_SUBMIT      = DOI_TUONG_FORM_NAME + '_SUBMIT';
+export const DOI_TUONG_FORM_NAME_SUCCESS     = DOI_TUONG_FORM_NAME + '_SUCCESS';
+export const DOI_TUONG_FORM_NAME_FAILURE     = DOI_TUONG_FORM_NAME + '_FAILURE';
+
+export const CA_NHAN_LIST_FILTER_FORM_NAME          = 'CA_NHAN_LIST_FILTER_FORM';
+export const CA_NHAN_LIST_FILTER_FORM_NAME_SUBMIT   = CA_NHAN_LIST_FILTER_FORM_NAME + '_SUBMIT';
+export const CA_NHAN_LIST_FILTER_FORM_NAME_SUCCESS  = CA_NHAN_LIST_FILTER_FORM_NAME + '_SUCCESS';
+export const CA_NHAN_LIST_FILTER_FORM_NAME_FAILURE  = CA_NHAN_LIST_FILTER_FORM_NAME + '_FAILURE';
+
+export const TO_CHUC_LIST_FILTER_FORM_NAME          = 'TO_CHUC_LIST_FILTER_FORM';
+export const TO_CHUC_LIST_FILTER_FORM_NAME_SUBMIT   = TO_CHUC_LIST_FILTER_FORM_NAME + '_SUBMIT';
+export const TO_CHUC_LIST_FILTER_FORM_NAME_SUCCESS  = TO_CHUC_LIST_FILTER_FORM_NAME + '_SUCCESS';
+export const TO_CHUC_LIST_FILTER_FORM_NAME_FAILURE  = TO_CHUC_LIST_FILTER_FORM_NAME + '_FAILURE';
+
+export const TAI_SAN_FORM_NAME             = 'TAI_SAN_FORM';
+export const TAI_SAN_FORM_NAME_SUBMIT      = TAI_SAN_FORM_NAME + '_SUBMIT';
+export const TAI_SAN_FORM_NAME_SUCCESS     = TAI_SAN_FORM_NAME + '_SUCCESS';
+export const TAI_SAN_FORM_NAME_FAILURE     = TAI_SAN_FORM_NAME + '_FAILURE';
+
+export const DONG_SAN_LIST_FILTER_FORM_NAME          = 'DONG_SAN_LIST_FILTER_FORM';
+export const DONG_SAN_LIST_FILTER_FORM_NAME_SUBMIT   = DONG_SAN_LIST_FILTER_FORM_NAME + '_SUBMIT';
+export const DONG_SAN_LIST_FILTER_FORM_NAME_SUCCESS  = DONG_SAN_LIST_FILTER_FORM_NAME + '_SUCCESS';
+export const DONG_SAN_LIST_FILTER_FORM_NAME_FAILURE  = DONG_SAN_LIST_FILTER_FORM_NAME + '_FAILURE';
+
+export const BAT_DONG_SAN_LIST_FILTER_FORM_NAME          = 'BAT_DONG_SAN_LIST_FILTER_FORM';
+export const BAT_DONG_SAN_LIST_FILTER_FORM_NAME_SUBMIT   = BAT_DONG_SAN_LIST_FILTER_FORM_NAME + '_SUBMIT';
+export const BAT_DONG_SAN_LIST_FILTER_FORM_NAME_SUCCESS  = BAT_DONG_SAN_LIST_FILTER_FORM_NAME + '_SUCCESS';
+export const BAT_DONG_SAN_LIST_FILTER_FORM_NAME_FAILURE  = BAT_DONG_SAN_LIST_FILTER_FORM_NAME + '_FAILURE';
+
+export const SUB_ASSET_TYPE_FORM_NAME              = 'SUB_ASSET_TYPE_FORM';
+export const SUB_ASSET_TYPE_FORM_NAME_SUBMIT       = SUB_ASSET_TYPE_FORM_NAME + '_SUBMIT';
+export const SUB_ASSET_TYPE_FORM_NAME_SUCCESS      = SUB_ASSET_TYPE_FORM_NAME + '_SUCCESS';
+export const SUB_ASSET_TYPE_FORM_NAME_FAILURE      = SUB_ASSET_TYPE_FORM_NAME + '_FAILURE';
+
+export const SUB_ASSET_TYPE_LIST_FILTER_FORM_NAME          = 'SUB_ASSET_TYPE_LIST_FILTER_FORM';
+export const SUB_ASSET_TYPE_LIST_FILTER_FORM_NAME_SUBMIT   = SUB_ASSET_TYPE_LIST_FILTER_FORM_NAME + '_SUBMIT';
+export const SUB_ASSET_TYPE_LIST_FILTER_FORM_NAME_SUCCESS  = SUB_ASSET_TYPE_LIST_FILTER_FORM_NAME + '_SUCCESS';
+export const SUB_ASSET_TYPE_LIST_FILTER_FORM_NAME_FAILURE  = SUB_ASSET_TYPE_LIST_FILTER_FORM_NAME + '_FAILURE';
+
+export const CONTRACT_TYPE_FORM_NAME               = 'CONTRACT_TYPE_FORM';
+export const CONTRACT_TYPE_FORM_NAME_SUBMIT        = CONTRACT_TYPE_FORM_NAME + '_SUBMIT';
+export const CONTRACT_TYPE_FORM_NAME_SUCCESS       = CONTRACT_TYPE_FORM_NAME + '_SUCCESS';
+export const CONTRACT_TYPE_FORM_NAME_FAILURE       = CONTRACT_TYPE_FORM_NAME + '_FAILURE';
+
+export const CONTRACT_TYPE_LIST_FILTER_FORM_NAME          = 'CONTRACT_TYPE_LIST_FILTER_FORM';
+export const CONTRACT_TYPE_LIST_FILTER_FORM_NAME_SUBMIT   = CONTRACT_TYPE_LIST_FILTER_FORM_NAME + '_SUBMIT';
+export const CONTRACT_TYPE_LIST_FILTER_FORM_NAME_SUCCESS  = CONTRACT_TYPE_LIST_FILTER_FORM_NAME + '_SUCCESS';
+export const CONTRACT_TYPE_LIST_FILTER_FORM_NAME_FAILURE  = CONTRACT_TYPE_LIST_FILTER_FORM_NAME + '_FAILURE';
+ 
+export const LOAI_HOP_DONG_FORM_NAME               = 'LOAI_HOP_DONG_FORM';
+export const LOAI_HOP_DONG_FORM_NAME_SUBMIT        = LOAI_HOP_DONG_FORM_NAME + '_SUBMIT';
+export const LOAI_HOP_DONG_FORM_NAME_SUCCESS       = LOAI_HOP_DONG_FORM_NAME + '_SUCCESS';
+export const LOAI_HOP_DONG_FORM_NAME_FAILURE       = LOAI_HOP_DONG_FORM_NAME + '_FAILURE';
+
+export const LOAI_HOP_DONG_LIST_FILTER_FORM_NAME          = 'LOAI_HOP_DONG_LIST_FILTER_FORM';
+export const LOAI_HOP_DONG_LIST_FILTER_FORM_NAME_SUBMIT   = LOAI_HOP_DONG_LIST_FILTER_FORM_NAME + '_SUBMIT';
+export const LOAI_HOP_DONG_LIST_FILTER_FORM_NAME_SUCCESS  = LOAI_HOP_DONG_LIST_FILTER_FORM_NAME + '_SUCCESS';
+export const LOAI_HOP_DONG_LIST_FILTER_FORM_NAME_FAILURE  = LOAI_HOP_DONG_LIST_FILTER_FORM_NAME + '_FAILURE';
+
+export const LOAI_SO_LUU_TRU_FORM_NAME             = 'LOAI_SO_LUU_TRU_FORM';
+export const LOAI_SO_LUU_TRU_FORM_NAME_SUBMIT      = LOAI_SO_LUU_TRU_FORM_NAME + '_SUBMIT';
+export const LOAI_SO_LUU_TRU_FORM_NAME_SUCCESS     = LOAI_SO_LUU_TRU_FORM_NAME + '_SUCCESS';
+export const LOAI_SO_LUU_TRU_FORM_NAME_FAILURE     = LOAI_SO_LUU_TRU_FORM_NAME + '_FAILURE';
+
+export const LOAI_SO_LUU_TRU_LIST_FILTER_FORM_NAME          = 'LOAI_SO_LUU_TRU_LIST_FILTER_FORM';
+export const LOAI_SO_LUU_TRU_LIST_FILTER_FORM_NAME_SUBMIT   = LOAI_SO_LUU_TRU_LIST_FILTER_FORM_NAME + '_SUBMIT';
+export const LOAI_SO_LUU_TRU_LIST_FILTER_FORM_NAME_SUCCESS  = LOAI_SO_LUU_TRU_LIST_FILTER_FORM_NAME + '_SUCCESS';
+export const LOAI_SO_LUU_TRU_LIST_FILTER_FORM_NAME_FAILURE  = LOAI_SO_LUU_TRU_LIST_FILTER_FORM_NAME + '_FAILURE';
+
+export const SO_LUU_TRU_FORM_NAME             	   = 'SO_LUU_TRU_FORM';
+export const SO_LUU_TRU_FORM_NAME_SUBMIT      	   = SO_LUU_TRU_FORM_NAME + '_SUBMIT';
+export const SO_LUU_TRU_FORM_NAME_SUCCESS     	   = SO_LUU_TRU_FORM_NAME + '_SUCCESS';
+export const SO_LUU_TRU_FORM_NAME_FAILURE     	   = SO_LUU_TRU_FORM_NAME + '_FAILURE';
+
+export const SO_LUU_TRU_LIST_FILTER_FORM_NAME          = 'SO_LUU_TRU_LIST_FILTER_FORM';
+export const SO_LUU_TRU_LIST_FILTER_FORM_NAME_SUBMIT   = SO_LUU_TRU_LIST_FILTER_FORM_NAME + '_SUBMIT';
+export const SO_LUU_TRU_LIST_FILTER_FORM_NAME_SUCCESS  = SO_LUU_TRU_LIST_FILTER_FORM_NAME + '_SUCCESS';
+export const SO_LUU_TRU_LIST_FILTER_FORM_NAME_FAILURE  = SO_LUU_TRU_LIST_FILTER_FORM_NAME + '_FAILURE';
+
+export const LAND_PURPOSE_FORM_NAME                = 'LAND_PURPOSE_FORM';
+export const LAND_PURPOSE_FORM_NAME_SUBMIT         = LAND_PURPOSE_FORM_NAME + '_SUBMIT';
+export const LAND_PURPOSE_FORM_NAME_SUCCESS        = LAND_PURPOSE_FORM_NAME + '_SUCCESS';
+export const LAND_PURPOSE_FORM_NAME_FAILURE        = LAND_PURPOSE_FORM_NAME + '_FAILURE';
+
+export const LAND_PURPOSE_LIST_FILTER_FORM_NAME          = 'LAND_PURPOSE_LIST_FILTER_FORM';
+export const LAND_PURPOSE_LIST_FILTER_FORM_NAME_SUBMIT   = LAND_PURPOSE_LIST_FILTER_FORM_NAME + '_SUBMIT';
+export const LAND_PURPOSE_LIST_FILTER_FORM_NAME_SUCCESS  = LAND_PURPOSE_LIST_FILTER_FORM_NAME + '_SUCCESS';
+export const LAND_PURPOSE_LIST_FILTER_FORM_NAME_FAILURE  = LAND_PURPOSE_LIST_FILTER_FORM_NAME + '_FAILURE';
+
+export const PHIEU_TRA_CUU_FORM_NAME             = 'PHIEU_TRA_CUU_FORM';
+export const PHIEU_TRA_CUU_FORM_NAME_SUBMIT      = PHIEU_TRA_CUU_FORM_NAME + '_SUBMIT';
+export const PHIEU_TRA_CUU_FORM_NAME_SUCCESS     = PHIEU_TRA_CUU_FORM_NAME + '_SUCCESS';
+export const PHIEU_TRA_CUU_FORM_NAME_FAILURE     = PHIEU_TRA_CUU_FORM_NAME + '_FAILURE';
+
+export const DOI_TUONG_FILTER_FORM_NAME            = 'DOI_TUONG_FILTER_FORM_NAME';
+export {PAGINATION_ITEMS_PER_PAGE} from '../../constants';
+
+export const GIOI_TINH = [
+	{id: 0, name: "NỮ"},
+	{id: 1, name: "NAM"},
+	{id: 2, name: "KHÁC"},
+];
+
+export const OWNER_TYPES = [
+    {
+        id: 1, 
+        name: "Cá nhân", 
+    },
+    {
+        id: 5, 
+        name: "Tổ chức", 
+    },
+]
+
+export const ASSET_TYPES = [
+    {
+        id: 1, 
+        name: "Động sản", 
+    },
+    {
+        id: 2, 
+        name: "Bất động sản", 
+    },
+    // {
+    //     id: 3, 
+    //     name: "Tài sản khác", 
+    // }
+]
+
+export const STATUS = {
+    0: "Đang sử dụng", 
+    1: "Ngưng sử dụng", 
+    2: "Xóa"
+}
+
+export const CONTRACT_TYPE_STATUS = {
+    0: "Đang sử dụng", 
+    1: "Ngưng sử dụng", 
+    2: "Xóa"
+}
+
+export const RELATED_ASSET_TYPES = [
+	{id: 1, name: "Nhà"},
+	{id: 2, name: "Căn hộ chung cư"},
+	{id: 3, name: "Công trình xây dựng"},
+	{id: 4, name: "Vườn cây lâu năm"},
+	{id: 5, name: "Rừng sản xuất là rừng trồng"},
+	{id: 6, name: "Đất trồng cây hàng năm"},
+];
+
+export const ASSET_STATUSES = [
+	{id: 1, code: "asset_prevention", name: "Đang bị ngăn chặn"},
+    {id: 2, code: "asset_valid", name: "Được phép giao dịch"},
+];

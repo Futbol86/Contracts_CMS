@@ -1,0 +1,53 @@
+div.normal {
+    background-color: lightgray;
+    box-shadow: lightgray;
+}
+
+.rounded-login {
+    border-radius: 20px;
+}
+
+.modal-dialog2 {
+    pointer-events: visible !important; }
+
+.disabled {
+    background-color: #c2cfd6 !important;
+    pointer-events: none !important;
+}
+
+.width-100 {
+    width: 100px !important;
+}
+
+.width-150 {
+    width: 150px !important;
+}
+
+.width-200 {
+    width: 200px !important;
+}
+
+.width-300 {
+    width: 300px;
+}
+
+.width-500 {
+    width: 500px;
+}
+
+.minWidth-600 {
+    width: 600px;
+    font-weight: bold;
+}
+
+.highlight-text {
+    background-color: yellow;
+}
+
+.font-8 {
+    font-size: 8px !important;
+}
+
+.zIndexZero {
+    z-index: 0 !important;
+}
